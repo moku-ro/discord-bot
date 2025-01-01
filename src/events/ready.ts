@@ -1,7 +1,7 @@
-import { Client } from 'discord.js';
+import { Client } from "discord.js";
 
 const readyHandler = (client: Client) => {
-    console.log(`Bot is online as ${client.user?.tag}`);
+  console.log(`Bot is online as ${client.user?.tag}`);
 };
 
 export default readyHandler;
