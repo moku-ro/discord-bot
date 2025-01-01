@@ -1,0 +1,29 @@
+{
+  "bot": {
+    "ready": "El bot está listo y funcionando.",
+    "messageForwarded": "El mensaje ha sido reenviado a los canales configurados.",
+    "noMedia": "No se encontró contenido multimedia en el mensaje.",
+    "keywordDetected": "Se ha detectado la palabra clave."
+  },
+  "commands": {
+    "configureChannels": {
+      "success": "Los canales se han configurado correctamente.",
+      "error": "Error al configurar los canales."
+    },
+    "configureKeywords": {
+      "success": "Las palabras clave se han configurado correctamente.",
+      "error": "Error al configurar las palabras clave."
+    },
+    "configureReactions": {
+      "success": "Las reacciones se han configurado correctamente.",
+      "error": "Error al configurar las reacciones."
+    }
+  },
+  "embeds": {
+    "title": "Mensaje reenviado de {user}",
+    "footer": "Enviado por: {userLink}",
+    "image": "Imagen",
+    "video": "Video",
+    "gif": "GIF"
+  }
+}

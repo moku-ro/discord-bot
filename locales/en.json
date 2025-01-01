@@ -1,0 +1,42 @@
+{
+  "bot": {
+    "ready": "Bot is online!",
+    "messageForwarded": "Message forwarded to the target channel.",
+    "noMedia": "No multimedia content found in the message.",
+    "keywordDetected": "Keyword detected, forwarding message.",
+    "configureChannels": {
+      "success": "Channels configured successfully.",
+      "error": "Error configuring channels."
+    },
+    "configureKeywords": {
+      "success": "Keywords configured successfully.",
+      "error": "Error configuring keywords."
+    },
+    "configureReactions": {
+      "success": "Reactions configured successfully.",
+      "error": "Error configuring reactions."
+    }
+  },
+  "commands": {
+    "configure": {
+      "description": "Configure bot settings.",
+      "usage": "/configure [channels|keywords|reactions]"
+    },
+    "setChannel": {
+      "description": "Set source and target channels.",
+      "usage": "/setChannel <source> <target>"
+    },
+    "setKeyword": {
+      "description": "Set keywords for message detection.",
+      "usage": "/setKeyword <keyword>"
+    },
+    "setReaction": {
+      "description": "Set emoji reactions for forwarded messages.",
+      "usage": "/setReaction <emoji>"
+    }
+  },
+  "errors": {
+    "invalidCommand": "Invalid command. Please use a valid slash command.",
+    "missingPermissions": "You do not have permission to use this command."
+  }
+}

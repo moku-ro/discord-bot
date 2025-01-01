@@ -1,0 +1,32 @@
+{
+  "name": "discord-bot",
+  "version": "1.0.0",
+  "description": "A Discord bot that forwards multimedia messages based on keywords and configurations.",
+  "main": "src/bot.ts",
+  "scripts": {
+    "start": "ts-node src/bot.ts",
+    "build": "tsc",
+    "dev": "ts-node-dev src/bot.ts"
+  },
+  "dependencies": {
+    "@discordjs/builders": "^1.9.0",
+    "@discordjs/rest": "^2.4.0",
+    "discord-api-types": "^0.37.114",
+    "discord.js": "^14.0.0",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.0.0",
+    "@types/ws": "^8.0.0"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "multimedia",
+    "forwarding",
+    "keywords"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
